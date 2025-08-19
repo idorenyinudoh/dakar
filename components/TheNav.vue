@@ -9,7 +9,7 @@
         <NuxtLink to="/" class="opacity-0">Vision</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/" class="opacity-0">Culture</NuxtLink>
+        <NuxtLink to="/" class="opacity-0">Sponsors</NuxtLink>
       </li>
     </ul>
     <p class="col-start-12 justify-self-end text-white opacity-0">Register</p>
