@@ -16,6 +16,7 @@ const preloaderAnimation = () => {
     mask: 'words',
     wordsClass: 'word++',
     onSplit: (self) => {
+      gsap.set('.preloader-text', { opacity: 1 })
       gsap.from(self.words, {
         y: 100,
         autoAlpha: 0,
@@ -63,6 +64,11 @@ const preloaderAnimation = () => {
                     duration: 1.5,
                     ease: 'power3.inOut'
                   }, '-=1.5')
+                  .to('h1', {
+                    opacity: 1,
+                    duration: 1.5,
+                    ease: 'power3.inOut'
+                  })
                 }
               })
             }
