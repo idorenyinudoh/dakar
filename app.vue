@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { gsap } from 'gsap';
-import { SplitText } from 'gsap/SplitText';
-
-gsap.registerPlugin(SplitText)
+const { gsap, SplitText } = useGSAP()
 
 const preloaderAnimation = () => {
   window.scrollTo(0, 0)
@@ -44,6 +41,8 @@ const preloaderAnimation = () => {
                       document.body.style.left = ''
                       document.body.style.width = ''
                       gsap.set('.preloader', { display: 'none' })
+
+                      isPreloaderComplete.value = true
                     }
                   })
 
@@ -69,6 +68,11 @@ const preloaderAnimation = () => {
                     duration: 1.5,
                     ease: 'power3.inOut'
                   })
+                  .to(['nav button', 'nav a'], {
+                    opacity: 1,
+                    duration: 1,
+                    ease: 'power3.inOut'
+                  }, '-=1')
                 }
               })
             }
@@ -88,8 +92,14 @@ onMounted(() => {
   <div>
     <ThePreloader />
     <div class="body mt-[100vh] opacity-0">
-      <TheHero />
-      <div class="flex justify-center items-center h-[100svh]">dakar</div>
+      <TheNav />
+      <main>
+        <TheHero />
+        <TheManifesto />
+        <TheVision />
+        <TheSponsors />
+        <TheRegister />
+      </main>
     </div>
   </div>
 </template>
