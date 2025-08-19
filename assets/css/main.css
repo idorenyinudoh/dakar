@@ -27,3 +27,7 @@
     @apply bg-white;
   }
 }
+
+@utility brand-grid {
+  @apply px-4 grid grid-cols-12 gap-x-3 gap-y-6;
+}

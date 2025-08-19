@@ -96,6 +96,10 @@ onMounted(() => {
       <main>
         <TheHero />
         <TheManifesto />
+        <TheVision />
+        <div class="flex justify-center items-center h-[100svh]">
+          dakar
+        </div>
       </main>
     </div>
   </div>
