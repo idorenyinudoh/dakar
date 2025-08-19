@@ -23,7 +23,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="description h-[100svh] flex flex-col gap-y-6 lg:gap-y-8 justify-center items-center px-4 max-sm:*:w-[80%] *:text-xl sm:*:text-2xl md:*:text-3xl lg:*:text-4xl *:leading-7 sm:*:leading-8 md:*:leading-10 lg:*:leading-12 *:font-medium *:tracking-tighter *:text-center">
+  <div class="description h-[100svh] flex flex-col gap-y-6 lg:gap-y-8 justify-center items-center px-4 max-sm:*:w-[80%] *:text-xl sm:*:text-2xl md:*:text-3xl lg:*:text-4xl *:leading-7 sm:*:leading-8 md:*:leading-10 lg:*:leading-12 *:font-medium *:tracking-tighter *:text-center" id="manifesto">
     <p>
       Dakar Renaissance 2025 is more than a fair.
     </p>

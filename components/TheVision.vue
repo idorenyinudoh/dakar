@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <section id="vision">
     <h2 class="pl-4 pb-4">Our Vision in Five Acts</h2>
     <article class="relative h-[130vh] pt-10 pb-20">
       <div class="sticky top-20 brand-grid items-center text-white">
@@ -67,5 +67,5 @@ onMounted(() => {
         <img src="~/assets/images/goree-architecture.jpg" alt="Gorée-Almadies perforated obelisk, Island of Gorée, Dakar, Senegal" class="absolute inset-0 w-full h-[112%] object-cover object-top brightness-90">
       </div>
     </article>
-  </div>
+  </section>
 </template>

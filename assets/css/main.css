@@ -23,6 +23,9 @@
   * {
     @apply font-sans tracking-tight;
   }
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply bg-white;
   }

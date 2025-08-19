@@ -68,7 +68,7 @@ const preloaderAnimation = () => {
                     duration: 1.5,
                     ease: 'power3.inOut'
                   })
-                  .to(['nav p', 'nav a'], {
+                  .to(['nav button', 'nav a'], {
                     opacity: 1,
                     duration: 1,
                     ease: 'power3.inOut'
@@ -98,9 +98,7 @@ onMounted(() => {
         <TheManifesto />
         <TheVision />
         <TheSponsors />
-        <div class="flex justify-center items-center h-[100svh]">
-          dakar
-        </div>
+        <TheRegister />
       </main>
     </div>
   </div>

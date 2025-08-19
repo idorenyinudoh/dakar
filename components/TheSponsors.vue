@@ -44,7 +44,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="sponsors py-20 flex flex-col justify-center">
+  <section class="sponsors py-20 flex flex-col justify-center" id="sponsors">
     <div class="brand-grid">
       <div class="col-span-6 md:col-span-3 lg:col-span-2 md:p-10 flex justify-center items-center">
         <div class="paystack-container relative">
