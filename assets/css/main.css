@@ -21,7 +21,7 @@
 
 @layer base {
   * {
-    @apply font-sans text-black tracking-tight;
+    @apply font-sans tracking-tight;
   }
   body {
     @apply bg-white;
